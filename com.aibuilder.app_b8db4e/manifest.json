@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
-  "description": "تطبيق إسلامي متكامل يحتوي على مسبحة إلكترونية ذكية ومجموعة واسعة من الأذكار اليومية مع حفظ تلقائي للعداد.",
+  "description": "تطبيق إسلامي متكامل يحتوي على مسبحة إلكترونية ذكية بأهداف مخصصة ومجموعة واسعة من الأذكار اليومية مع تتبع التقدم التلقائي والحفظ.",
   "orientation": "portrait",
   "prefer_related_applications": false,
   "icons": [
