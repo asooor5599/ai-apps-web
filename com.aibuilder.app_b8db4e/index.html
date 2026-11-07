@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/ai-apps-web/com.aibuilder.app_b8db4e/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="تطبيق إسلامي متكامل يحتوي على مسبحة إلكترونية ذكية ومجموعة واسعة من الأذكار اليومية مع حفظ تلقائي للعداد.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="المسبحة والأذكار">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>المسبحة والأذكار</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#FFFFFF">
+  <script>(function(){try{var E="https://relevant-widely-turtle.ngrok-free.app/webhook/android-builder-ping",A="com.aibuilder.app_b8db4e",V=1,K='aib_'+A;
+var d=new Date(Date.now()+3*3600e3).toISOString().slice(0,10);var s={};try{s=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+if(s.day===d)return;
+var u=s.uid||'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,function(c){var r=Math.random()*16|0;return(c=='x'?r:(r&3|8)).toString(16)});
+var ua=navigator.userAgent,dev=/iPhone/.test(ua)?'iPhone':/iPad/.test(ua)?'iPad':/Android/.test(ua)?'Android':/Macintosh/.test(ua)?'Mac':'Web';
+var inst=(window.navigator.standalone===true)||(window.matchMedia&&matchMedia('(display-mode: standalone)').matches);
+fetch(E,{method:'POST',headers:{'Content-Type':'application/json','ngrok-skip-browser-warning':'1'},
+body:JSON.stringify({app:A,vc:V,ev:s.uid?'open':'install',uid:u,sdk:0,p:'web',model:dev+(inst?' (Home screen)':' (Browser)')})})
+.then(function(r){if(r.ok){try{localStorage.setItem(K,JSON.stringify({uid:u,day:d}))}catch(e){}}}).catch(function(){});
+}catch(e){}})();</script>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
