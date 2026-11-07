@@ -1,11 +1,11 @@
 {
-  "name": "مسبحة الأذكار",
-  "short_name": "مسبحة الأذكا",
+  "name": "سبحتي",
+  "short_name": "سبحتي",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#1B5E20",
   "theme_color": "#1B5E20",
-  "description": "تطبيق تسبيح إلكتروني بسيط بواجهة عربية مريحة، لحفظ الأذكار والعدادات تلقائياً مع التغذية الراجعة بالاهتزاز.",
+  "description": "تطبيق تسبيح إلكتروني متطور يتميز بواجهة خضراء مريحة، يتيح لك تتبع الأذكار الفردية مع عداد إجمالي شامل لجميع تسبيحاتك وحفظ تلقائي للتقدم.",
   "orientation": "portrait",
   "prefer_related_applications": false,
   "icons": [
