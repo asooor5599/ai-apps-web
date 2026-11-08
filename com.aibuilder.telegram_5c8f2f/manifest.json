@@ -1,0 +1,38 @@
+{
+  "name": "تليغرام داكن",
+  "short_name": "تليغرام داكن",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "description": "تطبيق محادثات فورية واحترافي بتصميم تلغرام الداكن الأصلي بدعم كامل للغة العربية (RTL) ومزامنة سحابية عبر Firebase REST API وتخزين محلي.",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "scope": ".",
+  "lang": "ar",
+  "dir": "rtl"
+}
